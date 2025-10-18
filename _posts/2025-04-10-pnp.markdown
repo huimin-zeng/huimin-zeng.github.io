@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Plug-and-Play Versatile Compressed Video Enhancement"
+date:   2025-04-10 22:21:59 +00:00
+image: /images/pnp.jpg
+categories: research
+author: "Huimin Zeng"
+authors: "<strong>Huimin Zeng</strong>, Jiacheng Li, Zhiwei Xiong"
+venue: "CVPR 2025"
+paper: https://openaccess.thecvf.com/content/CVPR2025/html/Zeng_Plug-and-Play_Versatile_Compressed_Video_Enhancement_CVPR_2025_paper.html
+arxiv: https://arxiv.org/abs/2504.15380
+website: https://huimin-zeng.github.io/PnP-VCVE/
+video: https://www.youtube.com/watch?v=ZmsexIBM3ao&t=6s
+code: https://github.com/ZeldaM1/PnP-VCVE
+---
+We introduce a versatile quality enhancement framework that leverages bitstream information to adaptively enhance videos of different compression levels and assists various downstream vision tasks. 

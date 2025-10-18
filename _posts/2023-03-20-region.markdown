@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Region-Aware Portrait Retouching with Sparse Interactive Guidance"
+date:   2023-03-20 22:21:59 +00:00
+image: /images/region.jpg
+categories: research
+author: "Huimin Zeng"
+authors: "<strong>Huimin Zeng</strong>, Jie Huang, Jiacheng Li, Zhiwei Xiong"
+venue: "TMM"
+paper: https://ieeexplore.ieee.org/document/10081407
+arxiv: https://arxiv.org/abs/2304.04017
+code: https://github.com/ZeldaM1/interactive_portrat_retouching
+---
+We explore the interactive portrait retouching task, allowing the retouching model to effectively capture users’ intents and deliver visually satisfying retouched results.

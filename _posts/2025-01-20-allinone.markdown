@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "All-in-One Image Compression and Restoration"
+date:   2025-01-20 22:21:59 +00:00
+image: /images/allinone.jpg
+categories: research
+author: "Huimin Zeng"
+authors: "<strong>Huimin Zeng</strong>, Jiacheng Li, Ziqiang Zheng, Zhiwei Xiong"
+venue: "WACV 2025 <font color='red'><strong>(Oral Presentation)</strong></font>"
+paper: https://openaccess.thecvf.com/content/WACV2025/html/Zeng_All-in-One_Image_Compression_and_Restoration_WACV_2025_paper.html
+arxiv: https://arxiv.org/abs/2502.03649
+code: https://github.com/ZeldaM1/All-in-one
+---
+We design the first unified pipeline for all-in-one image compression and restoration, which equips the neural image codec with the restoration capability and improves its generalization ability against various degradations. 

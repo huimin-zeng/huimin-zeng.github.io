@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-E00L9PT3V9');
+  </script>
+  <title>{{ site.name }}</title>
+
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <meta name="author" content="{{ site.name }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:60%;vertical-align:middle">
+              <h1>
+                Huimin Zeng
+              </h1>
+              <p>I am currently a second-year Ph.D. student from <a href="https://web.northeastern.edu/smilelab/">SmileLab</a> at Northeastern University (NEU), supervised by <a href="https://www1.ece.neu.edu/~yunfu">Prof. Raymond Fu</a>. Before that, I received my Master's degree from the University of Science and Technology of China (USTC) in 2024, supervised by <a href="http://staff.ustc.edu.cn/~zwxiong/">Prof. Zhiwei Xiong</a>. I received my Bachelor's degree at Ocean University of China (OUC) in 2021.
+        
+              <p style="text-align:center">
+                <a href="mailto:zeng.huim@northeastern.edu"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a> &nbsp;/&nbsp;
+                <a href="https://www.linkedin.com/in/huimin-zeng-967a542a6"> LinkedIn </a> &nbsp;/&nbsp
+                <a href="https://github.com/ZeldaM1">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=jZJhKDEAAAAJ&hl=en">Google Scholar</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <img style="width:60%;max-width:100%" alt="profile photo" src="images/zhm.jpg">
+            </td>
+          </tr>
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>News</h2>
+              <p>
+                Looking for research internship opportunities in Summer 2026 and a part-time internship in Spring 2026. Thanks for any referrals or reaching out if there's a good fit! ✋ 
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Research</h2>
+              <p>
+                My research interests focus on adaptive and interpretable computational photography, with a strong interest in 3D scene reconstruction, image/video enhancement, and interactive tasks. I'm also open to discussions and collaborations.
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'research' %}
+          <tr>
+            <td style="padding:2%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="/tn{{post.image}}" alt="project image" style="width:200px; height:120px; max-width:100%;" />
+            </td>
+            <td style="padding:2%;width:75%;vertical-align:middle">
+              <h3 style="color:#1772d0;font-weight:bold;">{{post.title}}</h3>
+              <br>
+              {{post.authors}}
+
+              <br>
+              <em>{{post.venue}}</em>
+              <br>
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a>
+              {% endif %}
+              {% if post.arxiv %}
+              {% if post.paper %} / {% endif %}<a href="{{post.arxiv}}">arxiv</a>
+              {% endif %}
+              {% if post.video %}
+              {% if post.paper or post.arxiv %} / {% endif %}<a href="{{post.video}}">video</a>
+              {% endif %}
+              {% if post.code %}
+              {% if post.paper or post.arxiv or post.video %} / {% endif %}<a href="{{post.code}}">code</a>
+              {% endif %}
+              {% if post.poster %}
+              {% if post.paper or post.arxiv or post.video or post.code %} / {% endif %}<a href="{{post.poster}}">poster</a>
+              {% endif %}
+              {% if post.slides %}
+              {% if post.paper or post.arxiv or post.video or post.code or post.poster %} / {% endif %}<a href="{{post.slides}}">slides</a>
+              {% endif %}
+              {% if post.website %}
+              {% if post.paper or post.arxiv or post.video or post.code or post.poster or post.slides %} / {% endif %}<a href="{{post.website}}">website</a>
+              {% endif %}
+              {% if post.youtube %}
+              {% if post.paper or post.arxiv or post.video or post.code or post.poster or post.slides or post.website %} / {% endif %}<a href="{{post.youtube}}">youtube</a>
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:center;font-size:small;">
+                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
+

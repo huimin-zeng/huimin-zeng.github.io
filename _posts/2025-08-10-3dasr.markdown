@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Arbitrary-Scale 3D Gaussian Super-Resolution"
+date:   2025-08-10 22:21:59 +00:00
+image: /images/3dasr.jpg
+categories: research
+author: "Huimin Zeng"
+authors: "<strong>Huimin Zeng</strong>, Yue Bai, Yun Fu"
+# venue: "arXiv"
+arxiv: https://www.arxiv.org/abs/2508.16467
+---
+ We make the first attempt to achieve 3D super-resolution
+of arbitrary scale factors with a single 3DGS model, providing a unified and efficient solution for flexible, high-resolution novel view synthesis.
