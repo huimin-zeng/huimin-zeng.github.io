@@ -38,7 +38,6 @@ EOF
 bundle config set path 'vendor/bundle'
 bundle install
 
-
-<!-- bundle exec jekyll serve -->
+bundle exec jekyll serve
 LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 RBENV_VERSION=3.1.4 bundle exec jekyll serve
 http://127.0.0.1:4000/ -->
