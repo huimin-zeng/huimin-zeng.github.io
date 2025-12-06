@@ -6,7 +6,7 @@ image: /images/3dasr.jpg
 categories: research
 author: "Huimin Zeng"
 authors: "<strong>Huimin Zeng</strong>, Yue Bai, Yun Fu"
-# venue: "arXiv"
+venue: "AAAI 2026"
 arxiv: https://www.arxiv.org/abs/2508.16467
 ---
  We make the first attempt to achieve 3D super-resolution

@@ -11,6 +11,24 @@
 
     gtag('config', 'G-E00L9PT3V9');
   </script>
+  <script>
+    function copyWeChat(event) {
+      event.preventDefault();
+      const wechat = 'iamzhmhmz';
+      navigator.clipboard.writeText(wechat).then(function() {
+        alert('copied!');
+      }, function() {
+        // Fallback for older browsers
+        const textArea = document.createElement('textarea');
+        textArea.value = wechat;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+        alert('WeChat copied!');
+      });
+    }
+  </script>
   <title>{{ site.name }}</title>
 
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -38,7 +56,8 @@
         
               <p style="text-align:center">
                 <a href="mailto:zenghuimin1998@gmail.com"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/huimin-zeng-967a542a6"> LinkedIn </a> &nbsp;/&nbsp
+                <a href="https://www.linkedin.com/in/huimin-zeng-967a542a6"> LinkedIn </a> &nbsp;/&nbsp;
+                <a href="#" onclick="copyWeChat(event)"> WeChat </a> &nbsp;/&nbsp;
                 <a href="https://github.com/ZeldaM1">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://scholar.google.com/citations?user=jZJhKDEAAAAJ&hl=en">Google Scholar</a>
               </p>
@@ -54,7 +73,16 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>News</h2>
               <p>
-                Looking for research internship opportunities in Summer 2026 and a part-time internship in Spring 2026. Thanks for any referrals or reaching out if there's a good fit! ✋ 
+                ❗️ I am currently looking for research internship opportunities for Summer 2026. Thanks for any referrals or reaching out if there's a potential fit! 
+              </p>
+              <p>
+                <span style="color:#1772d0;">[Dec. 2025]</span>&nbsp;&nbsp;Passed my PhD qualifying exam, thanks to my advisor and committee members! Cheers! 🎉
+              </p>
+              <p>
+                <span style="color:#1772d0;">[Nov. 2025]</span>&nbsp;&nbsp;One paper for 3D super-resolution is accepted to AAAI 2026.
+              </p>
+              <p>
+                <span style="color:#1772d0;">[Sep. 2024]</span>&nbsp;&nbsp;Begin my journey at Northeastern University.
               </p>
             </td>
           </tr>
@@ -65,7 +93,7 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-                My research interests focus on adaptive and interpretable computational photography, with a strong interest in 3D scene reconstruction, image/video enhancement, and interactive tasks. I'm also open to discussions and collaborations.
+              My research focuses on adaptive and interpretable <strong>computational photography</strong>, with a particular emphasis on <strong>3D scene reconstruction</strong>, <strong>MLLMs</strong>, and <strong>low-level vision</strong>. I'm also open to discussions and collaborations. 🤝 Feel free to reach out! 
               </p>
             </td>
           </tr>
