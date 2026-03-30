@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Physically Inspired Gaussian Splatting for HDR Novel View Synthesis"
+date:   2026-03-29 22:21:59 +00:00
+image: /images/hdrnvs.jpeg
+categories: research
+author: "Huimin Zeng"
+authors: '<strong>Huimin Zeng</strong>,&nbsp;<a href="https://yueb17.github.io/">Yue Bai</a>,&nbsp;<a href="https://scholar.google.com/citations?user=oKoYjqUAAAAJ&hl=zh-CN">Hailing Wang</a>,&nbsp;<a href="https://www1.ece.neu.edu/~yunfu/">Yun Fu</a>'
+venue: "CVPR 2026"
+# arxiv: 
+paper: https://huimin-zeng.github.io/PhysHDR-GS/assets/paper.pdf
+code: https://github.com/ZeldaM1/PhysHDR-GS
+website: https://huimin-zeng.github.io/PhysHDR-GS/
+---
+We present PhysHDR-GS, a physically inspired HDR novel view synthesis framework that models scene appearance via intrinsic reflectance and adjustable ambient illumination, thus modeling appearance-related dynamic details.
+
+

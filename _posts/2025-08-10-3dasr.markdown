@@ -5,9 +5,14 @@ date:   2025-08-10 22:21:59 +00:00
 image: /images/3dasr.jpg
 categories: research
 author: "Huimin Zeng"
-authors: "<strong>Huimin Zeng</strong>, Yue Bai, Yun Fu"
+authors: '<strong>Huimin Zeng</strong>,&nbsp;<a href="https://yueb17.github.io/">Yue Bai</a>,&nbsp;<a href="https://www1.ece.neu.edu/~yunfu/">Yun Fu</a>'
 venue: "AAAI 2026"
+paper: https://ojs.aaai.org/index.php/AAAI/article/view/38222
 arxiv: https://www.arxiv.org/abs/2508.16467
+code: https://github.com/huimin-zeng/Arbi-3DGSR
+website: https://huimin-zeng.github.io/3DASR/
 ---
  We make the first attempt to achieve 3D super-resolution
 of arbitrary scale factors with a single 3DGS model, providing a unified and efficient solution for flexible, high-resolution novel view synthesis.
+
+

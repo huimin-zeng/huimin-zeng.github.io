@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Feature Decoupling-Recycling Network for Fast Interactive Segmentation"
+date:   2023-02-20 22:21:59 +00:00
+image: /images/intersam.jpg
+categories: research
+author: "Huimin Zeng"
+authors: '<strong>Huimin Zeng</strong>,&nbsp;<a href="https://scholar.google.com/citations?user=F4b5oS4AAAAJ&hl=en">Weinong Wang</a>,&nbsp;<a href="https://www.xtao.website/">Xin Tao</a>,&nbsp;<a href="https://staff.ustc.edu.cn/~zwxiong/">Zhiwei Xiong</a>,&nbsp;<a href="https://yuwingtai.github.io/">Yu-Wing Tai</a>,&nbsp;<a href="https://wenjiepei.github.io/">Wenjie Pei</a>'
+venue: "ACM MM 2023"
+paper: https://dl.acm.org/doi/10.1145/3581783.3611837
+arxiv: https://arxiv.org/abs/2308.03529
+ 
+---
+We propose a feature decoupling-recycling scheme, which decouples image semantics extraction and user interaction processing, while recycling extracted feature maps to improve efficiency.
+
+
+
+
+
+
+
+
